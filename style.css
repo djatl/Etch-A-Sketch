@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.grid {
+    display: flex;
+    flex-flow: nowrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    flex-flow: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    gap: 0;
+}
+
+.cell {
+    background-color: white;
+    border: 1px solid grey;
+    width: 10px;
+    height: 10px;
+    margin: 0;
+    padding: 0;
+    gap: 0;
+
+}
+
+.hover {
+    background-color: black;
+}
+
+button {
+    margin: 10px;
+}
+
